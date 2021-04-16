@@ -7,7 +7,14 @@ function findCard(elem, table) {
     let y = elem.cellIndex
     let card = elem.textContent
     console.log(card, table)
+    console.log(x,y)
+    console.log(table[x][y])
+    console.log(elem.textContent)
 
+    // while(table[x][y] === elem.textContent){
+    //     console.log("Element")
+    //     j++
+    // }
     // for(let i = 0; i < 7; i++){
     //     for(let j = 0; j < 6; j++){
     //
